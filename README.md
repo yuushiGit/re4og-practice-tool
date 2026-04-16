@@ -18,7 +18,7 @@ To uninstall, just delete dinput8.dll. The game returns to vanilla.
 
 ### Savestates
 
-4 save slots that snapshot the entire game state in memory. Save with **F5**, load with **F6** — instant restore, no loading screens. States can only be loaded in the same room where they were saved; leaving the room or reloading invalidates them. Saving is blocked during cutscenes and events.
+4 save slots that snapshot the entire game state in memory. Save with **F5**, load with **F6** — instant restore, no loading screens. States can only be loaded in the same room where they were saved; leaving the room or reloading invalidates them. Saving and loading are blocked during cutscenes, events, and death sequences.
 
 ### Backups
 
@@ -38,13 +38,13 @@ A large on-screen timer with start/stop/reset controls. It can auto-start on roo
 
 ### Inventory Editor
 
-A visual grid that mirrors your attache case in real time. Drag items to reposition them, right-click to rotate, click to edit ID, quantity, ammo, or orientation. Key items and treasures are listed separately with edit support. You can also add any item in the game from a dropdown.
+A visual grid that mirrors your attache case in real time. Drag items to reposition them, press Space during a drag to rotate, and click to edit ID, quantity, ammo, or orientation. A collision guide turns red when the drop position overlaps another item. Key items and treasures are listed separately with edit support. Add any item from a searchable dropdown, and edit your money (PTAS) directly.
 
 The grid automatically adjusts to your current case size (S / M / L / XL).
 
 ### Cheats
 
-Invincibility, infinite ammo, weak enemies, noclip, free camera, RNG freeze, and a game speed slider (0.1x to 5.0x). Free camera detaches the view from the player and lets you fly around with WASD, mouse look, Space/Ctrl for vertical movement, and Shift to boost. Quick-action buttons let you save or retry a checkpoint, force a game save, or return to the title screen. Area jump lets you warp to any room organized by stage (Village, Castle, Island, Mercenaries, Separate Ways).
+Invincibility, infinite ammo, weak enemies, noclip, free camera, RNG freeze, and a game speed override (0.1x to 5.0x). Free camera detaches the view from the player and lets you fly around with WASD, mouse look, Space/Ctrl for vertical movement, and Shift to boost. Quick-action buttons let you save or retry a checkpoint, force a game save, open the merchant shop, or return to the title screen. Area jump lets you warp to any room organized by stage (Village, Castle, Island, Mercenaries, Separate Ways).
 
 ### Memory Patches
 
