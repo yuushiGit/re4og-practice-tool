@@ -18,41 +18,43 @@ To uninstall, just delete dinput8.dll. The game returns to vanilla.
 
 ### Savestates
 
-4 save slots that snapshot the entire game state in memory. Save with **F5**, load with **F6** — instant restore, no loading screens. States can only be loaded in the same room where they were saved; leaving the room or reloading invalidates them. Saving and loading are blocked during cutscenes, events, and death sequences.
+4 save slots that snapshot the entire game state in memory. Save with **F5**, load with **F6** for instant restore with no loading screens. States can only be loaded in the same room where they were saved. Leaving the room or triggering an event invalidates them.
 
 ### Backups
 
-Backup and restore your .sav files without leaving the game. Export with a custom filename (timestamp is prefilled), browse your backups, rename, delete, or apply them to restore your save.
+Backup and restore your .sav files without leaving the game. Export with a custom filename, browse your backups, rename, delete, or apply them. Useful for preserving progress before experimenting.
 
 ### Collision Display
 
-See what the game actually sees. Toggle body outlines, per-part hitboxes, attack ranges for both the player and enemies, event trigger zones, and terrain collision geometry. Capsules are filled with semi-transparent color so overlapping shapes are easy to read.
+Toggle hitboxes, individual body parts, attack hitboxes, terrain collision geometry, event trigger areas, and room info overlays. Each category has a per-type filter so you can show only the types you need.
 
 ### HP & Damage
 
-Show HP values in a side panel, overhead bars above enemies, and floating damage numbers on hit.
+Show HP values in a side panel with color-coded health bars. Overhead bars appear above enemies in the game world. Floating damage numbers pop up on every hit.
 
 ### Speedrun Timer
 
-A large on-screen timer with start/stop/reset controls. It can auto-start on room loads (including checkpoint retries) or savestate loads. Reset stops the timer and returns it to zero.
+A large on-screen timer with start/stop/reset controls. Auto-start on room loads or savestate loads. Reset displays the previous time in the OSD before returning to zero.
 
 ### Inventory Editor
 
-A visual grid that mirrors your attache case in real time. Drag items to reposition them, press Space during a drag to rotate, and click to edit ID, quantity, ammo, or orientation. A collision guide turns red when the drop position overlaps another item. Key items and treasures are listed separately with edit support. Add any item from a searchable dropdown, and edit your money (PTAS) directly.
-
-The grid automatically adjusts to your current case size (S / M / L / XL).
+A visual attache case grid with drag-and-drop, rotation, and collision guides. Add any item from a searchable dropdown sorted by category. Edit ID, quantity, ammo, and orientation. Key items and treasures are listed separately.
 
 ### Cheats
 
-Invincibility, infinite ammo, weak enemies, noclip, free camera, RNG freeze, and a game speed override (0.1x to 5.0x). Free camera detaches the view from the player and lets you fly around with WASD, mouse look, Space/Ctrl for vertical movement, and Shift to boost. Quick-action buttons let you save or retry a checkpoint, force a game save, open the merchant shop, or return to the title screen. Area jump lets you warp to any room organized by stage (Village, Castle, Island, Mercenaries, Separate Ways).
+Toggle cheats like invincibility, noclip, free camera, and speed override. Includes action buttons for checkpoint management, save game, open merchant, debug trigger, and back to title. All cheats can be bound to hotkeys.
+
+### Area Jump
+
+Warp to any room organized by scenario: Village, Castle, Island, Separate Ways, Assignment Ada, and Mercenaries. The current room is auto-selected when you change areas. Rooms have a search filter for quick lookup.
 
 ### Memory Patches
 
-Skip intro logos, door animations, save screen transitions, and the quit fade-out. The Krauser knife-fight QTE can also be skipped. Changes require a game restart to take effect.
+Skip intro logos, door animations, save screen transitions, the quit fade-out, and the Krauser knife-fight QTE. All patches are toggleable from the Patches tab. Changes require a game restart to take effect.
 
 ### Hotkeys
 
-Every major function can be bound to a key. Defaults:
+Every function can be bound to a keyboard key, combo, or gamepad button. Hover any keybind button for instructions.
 
 | Key | Action |
 |-----|--------|
@@ -60,21 +62,20 @@ Every major function can be bound to a key. Defaults:
 | F6 | Load State |
 | F10 | Toggle Overlay |
 
-All other hotkeys are unbound by default and can be configured in the Hotkeys tab.
+All other hotkeys are unbound by default.
 
 ### Info Panel
 
-Displays room name, chapter, difficulty, dynamic difficulty, in-game time, money, kill count, accuracy, player position, and a live RNG graph.
+Displays room name, chapter, difficulty, dynamic difficulty, in-game time, money, kill count, and accuracy. Also shows player position and a live RNG graph for analysis.
 
 ## Compatibility
 
 - Resident Evil 4 UHD (2014 Steam version)
 - Tested on v1.1.0
+- Linux/Proton compatible (font fallback included)
 
 ## Credits
 
-This project was made possible by the work of the RE4 modding community.
-
 - [re4_tweaks](https://github.com/nipkownix/re4_tweaks) — Reference for game structures and memory patterns
-- [re4-research](https://github.com/emoose/re4-research) — IDA database and reverse engineering research
+- [re4-research](https://github.com/emoose/re4-research) — Reverse engineering research
 - [Dear ImGui](https://github.com/ocornut/imgui) — UI framework
