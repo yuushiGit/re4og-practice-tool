@@ -26,7 +26,7 @@ Show HP values in a side panel with color-coded health bars. Overhead bars appea
 
 ### Collision Display
 
-Toggle hitboxes, individual body parts, attack hitboxes, terrain collision geometry, event trigger areas, and room info overlays. Each category has a per-type filter so you can show only the types you need.
+Toggle hitboxes, individual body parts, attack hitboxes, terrain collision geometry, effect collision (damage zones), event trigger areas, and enemy data overlays. Each category has a per-type filter so you can show only the types you need. Active triggers highlight when the player enters them. Hide Layers selectively disables rendering of scenery, enemies, objects, effects, fog, shadows, water, and post-processing.
 
 ### Input Display
 
@@ -42,7 +42,7 @@ A large on-screen timer with start/stop/reset controls. Auto-start on room loads
 
 ### Cheats
 
-Toggle cheats like invincibility, noclip, free camera, and speed override. Includes action buttons for checkpoint management, save game, open merchant, debug trigger, and back to title. All cheats can be bound to hotkeys.
+Toggle cheats like invincibility, noclip, free camera, and speed override. Includes action buttons for checkpoint management, save game, open merchant, debug trigger, and back to title. Teleport to any coordinate with rotation control. All cheats can be bound to hotkeys.
 
 ### Area Jump
 
