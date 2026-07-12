@@ -42,11 +42,7 @@ A large on-screen timer with start/stop/reset controls. Auto-start on room loads
 
 ### Cheats
 
-Toggle cheats like invincibility, noclip, free camera, and speed override. Includes action buttons for checkpoint management, save game, open merchant, debug trigger, and back to title. Teleport to any coordinate with rotation control. All cheats can be bound to hotkeys.
-
-### Area Jump
-
-Warp to any room organized by scenario: Village, Castle, Island, Separate Ways, Assignment Ada, and Mercenaries. The current room is auto-selected when you change areas. Rooms have a search filter for quick lookup.
+Player cheats (invincibility, infinite ammo, noclip, free camera), enemy cheats (weaken, kill, freeze), and modifiers (speed presets, DA override, RNG freeze). Warp to any coordinates or jump to any room by scenario. Action buttons for checkpoint management, merchant, and more. All functions can be bound to hotkeys.
 
 ### Inventory Editor
 
@@ -62,7 +58,7 @@ Skip intro logos, door animations, save screen transitions, the quit fade-out, a
 
 ### Hotkeys
 
-Every function can be bound to a keyboard key, combo, or controller button. Hover any keybind button for instructions.
+Every function can be bound to a keyboard key, combo, or controller button. Speed presets use hold-to-activate.
 
 ## Compatibility
 
